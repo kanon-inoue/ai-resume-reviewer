@@ -1,0 +1,26 @@
+com.kanon.resumereviewer
+│
+├── controller   ← Handles HTTP requests
+├── service      ← Business logic (next)
+├── repository   ← Database access (next)
+├── entity       ← Database tables (you're here!)
+├── dto          ← Data transfer objects (later)
+├── config       ← Configuration (already have SecurityConfig)
+└── ResumeReviewerApplication.java
+
+
+TODO
+✅ Create backend
+✅ Connect PostgreSQL
+✅ Build first API
+✅ Create User entity
+✅ Create UserRepository
+✅ Create UserService
+✅ Create UserController
+⏳ Register User API
+⏳ Create React app
+⏳ Connect React to backend
+⏳ User login
+⏳ Resume upload
+⏳ AI review
+⏳ Dashboard
