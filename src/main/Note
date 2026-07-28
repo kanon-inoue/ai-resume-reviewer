@@ -54,3 +54,32 @@ BCrypt checks password
      │         │
      ▼         ▼
 Login OK    Error
+
+User Registration
+✅ Register new users
+✅ Save users to PostgreSQL
+✅ Prevent duplicate emails
+✅ Hash passwords with BCrypt
+✅ Return a safe UserResponse (no password exposed)
+User Login
+✅ Find user by email
+✅ Compare passwords using BCryptPasswordEncoder.matches()
+✅ Return a successful response
+
+Login
+   │
+   ▼
+Email + Password
+   │
+   ▼
+Verify with BCrypt
+   │
+   ▼
+Generate JWT
+   │
+   ▼
+React stores JWT
+   │
+   ▼
+Every future request includes:
+Authorization: Bearer <token>

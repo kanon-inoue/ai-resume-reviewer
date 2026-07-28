@@ -5,6 +5,8 @@ import com.kanon.resumereviewer.entity.User;
 import com.kanon.resumereviewer.service.UserService;
 import org.springframework.web.bind.annotation.*;
 import com.kanon.resumereviewer.dto.RegisterRequest;
+import com.kanon.resumereviewer.dto.LoginRequest;
+import com.kanon.resumereviewer.dto.LoginResponse;
 
 import java.util.List;
 
@@ -25,5 +27,10 @@ public class UserController {
     @PostMapping("/api/users/register")
     public UserResponse registerUser(@RequestBody RegisterRequest request) {
         return userService.registerUser(request);
+    }
+
+    @PostMapping("/api/users/login")
+    public LoginResponse loginUser(@RequestBody LoginRequest request) {
+        return userService.loginUser(request);
     }
 }
