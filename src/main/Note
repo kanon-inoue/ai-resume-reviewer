@@ -1,11 +1,11 @@
 com.kanon.resumereviewer
 │
 ├── controller   ← Handles HTTP requests
-├── service      ← Business logic (next)
-├── repository   ← Database access (next)
-├── entity       ← Database tables (you're here!)
-├── dto          ← Data transfer objects (later)
-├── config       ← Configuration (already have SecurityConfig)
+├── service      ← Business logic
+├── repository   ← Database access
+├── entity       ← Database tables
+├── dto          ← Data transfer objects
+├── config       ← Configuration
 └── ResumeReviewerApplication.java
 
 
@@ -24,3 +24,11 @@ TODO
 ⏳ Resume upload
 ⏳ AI review
 ⏳ Dashboard
+
+GitHub repository ideas
+- A professional README.md
+- Tech stack badges
+- Screenshots of frontend
+- Project roadmap
+- Features completed
+- Future features
