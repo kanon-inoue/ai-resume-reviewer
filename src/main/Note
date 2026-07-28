@@ -32,3 +32,25 @@ GitHub repository ideas
 - Project roadmap
 - Features completed
 - Future features
+
+User Login
+User enters email/password
+          │
+          ▼
+     UserController
+          │
+          ▼
+      UserService
+          │
+          ▼
+Find user by email
+          │
+          ▼
+BCrypt checks password
+          │
+     Correct?
+      /      \
+    Yes       No
+     │         │
+     ▼         ▼
+Login OK    Error
